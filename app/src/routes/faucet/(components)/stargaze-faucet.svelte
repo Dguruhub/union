@@ -232,7 +232,7 @@ let stargazeBalance = createQuery(
               <div class="flex justify-between px-1">
                 <div class="text-xs">
                   <p>
-                    {#if $stargazeAddress?.indexOf("stargaze") === 0 && $stargazeBalance.status === "success"}
+                    {#if $stargazeAddress?.indexOf("stars") === 0 && $stargazeBalance.status === "success"}
                       <!--
                       <span>Balance: </span>
                       {$stargazeBalance?.data?.balance ?? 0}
